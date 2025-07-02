@@ -13,17 +13,17 @@ export default function Projects() {
         {
             repoName: "PulseTrack",
             name: "PulseTrack",
-            image: "/images/pulsetrack-banner.png",
+            image: `${process.env.PUBLIC_URL}/images/pulsetrack-banner.png`,
         },
         {
             repoName: "ToDO_Backend",
             name: "Todo",
-            image: "/images/todo-banner.png",
+            image: `${process.env.PUBLIC_URL}/images/todo-banner.png`,
         },
         {
             repoName: "Tweet-vault",
             name: "TweetVault",
-            image: "/images/tweetvault-banner.png",
+            image: `${process.env.PUBLIC_URL}/images/tweetvault-banner.png`,
         }
     ], []);
 

@@ -8,7 +8,7 @@ export default function Resume() {
                     <h1>📄 My Resume</h1>
                     <p>Browse my professional experience, projects, and skills in detail below.</p>
                     <a
-                        href="/resume.pdf"
+                        href={`${process.env.PUBLIC_URL}/resume.pdf`}
                         className="download-button"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -21,7 +21,7 @@ export default function Resume() {
             <div className="resume-container">
                 <iframe
                     title="Dheeraj's Resume"
-                    src="/resume.pdf"
+                    src={`${process.env.PUBLIC_URL}/resume.pdf`}
                     frameBorder="0"
                 />
             </div>

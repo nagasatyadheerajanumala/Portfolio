@@ -42,7 +42,7 @@ export default function Home() {
                 <h2>About Me 🗣️</h2>
                 <div className="about-content">
                     <img
-                        src="/images/dheeraj-anumala.jpg"
+                        src={`${process.env.PUBLIC_URL}/images/dheeraj-anumala.jpg`}
                         alt="Dheeraj smiling with sunglasses"
                         className="profile-pic"
                     />

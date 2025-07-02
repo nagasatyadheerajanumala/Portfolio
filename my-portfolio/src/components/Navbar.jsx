@@ -24,7 +24,7 @@ export default function Navbar() {
         <header className={`navbar ${darkMode ? 'dark' : ''} ${scrolled ? 'scrolled' : ''}`}>
             <div className="nav-content">
                 <div className="brand">
-                    <img src="/images/dheeraj-anumala.jpg" alt="Dheeraj" className="avatar" />
+                    <img src={`${process.env.PUBLIC_URL}/images/dheeraj-anumala.jpg`} alt="Dheeraj" className="avatar" />
                     <h1 className="logo">
                         <span className="pulse">Dheeraj's</span> Portfolio
                     </h1>
