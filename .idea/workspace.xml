@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd2311af-eb5c-4d94-939c-ed0c02bbe850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/my-portfolio/public/images/wave.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/FeaturedProjects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/FeaturedProjects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/PostCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/Timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/TimelineItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Experience.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Experience.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/ProjectDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/ProjectDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Resume.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Resume.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/src/pages/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-portfolio/src/pages/Experience.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

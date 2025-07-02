@@ -116,7 +116,7 @@
 .timeline-item.right .timeline-content {
     border-right: 5px solid #6366f1;
     border-left: none;
-    text-align: right;
+    text-align: left;
 }
 
 .timeline-item.education .timeline-content {
