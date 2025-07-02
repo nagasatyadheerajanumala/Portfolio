@@ -1,0 +1,125 @@
+.timeline-page {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.timeline-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #222;
+    border-bottom: 2px solid #6366f1;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #6366f1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-item .content {
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.timeline-item.left .content::after {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    right: -7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.timeline-item.right .content::after {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    left: -7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #6366f1;
+    font-weight: 600;
+}
+
+.title {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: #222;
+}
+
+.subtitle {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.description {
+    color: #555;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 10px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 2.5rem;
+        padding-right: 1rem;
+        text-align: left !important;
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left .content::after,
+    .timeline-item.right .content::after {
+        left: 1rem;
+        border-color: transparent #ffffff transparent transparent;
+    }
+}
