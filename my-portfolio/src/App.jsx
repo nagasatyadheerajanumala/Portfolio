@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 import Home from './pages/Home';
@@ -15,7 +15,7 @@ const GITHUB_USERNAME = 'nagasatyadheerajanumala';  // <-- put your actual GitHu
 
 export default function App() {
     return (
-        <Router basename = "/Portfolio">
+        <BrowserRouter basename = "/Portfolio">
             <Navbar />
             <div className="content">
                 <Routes>
@@ -28,6 +28,6 @@ export default function App() {
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
-        </Router>
+        </BrowserRouter>
     );
 }
