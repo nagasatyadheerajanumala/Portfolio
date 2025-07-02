@@ -19,7 +19,7 @@ export default function App() {
             <Navbar />
             <div className="content">
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/Portfolio" element={<Home />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/projects" element={<Projects username={GITHUB_USERNAME} />} />
                     <Route path="/projects/:name" element={<ProjectDetail username={GITHUB_USERNAME} />} />
