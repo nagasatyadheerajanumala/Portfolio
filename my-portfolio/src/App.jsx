@@ -15,7 +15,7 @@ const GITHUB_USERNAME = 'nagasatyadheerajanumala';  // <-- put your actual GitHu
 
 export default function App() {
     return (
-        <Router>
+        <Router basename = "/Portfolio">
             <Navbar />
             <div className="content">
                 <Routes>
