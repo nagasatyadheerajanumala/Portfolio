@@ -42,15 +42,16 @@ export default function Experience() {
         },
         {
             type: 'experience',
-            date: 'Apr 2020 – Jul 2020',
-            title: 'Agrii Prince',
-            subtitle: 'Machine Learning Engineer',
+            date: 'Aug 2019 – Jun 2021',
+            title: 'App Integrators',
+            subtitle: 'Software Engineer',
             bullets: [
-                'Built end-to-end chatbot using RASA and Dialogflow with support for native languages.',
-                'Engineered a Streamlit dashboard to visualize metrics, detect drift, and monitor ML pipeline health.',
-                'Trained and deployed classification models using spaCy and TensorFlow with 89% precision.'
+                'Designed and delivered application integration solutions that streamlined workflows and reduced manual effort for clients.',
+                'Built and maintained data pipelines to automate reporting and improve reliability of business processes.',
+                'Implemented secure authentication and role-based access to support enterprise-level requirements.',
+                'Collaborated with stakeholders to identify integration gaps, shipped features on tight deadlines, and improved onboarding efficiency'
             ],
-            sortDate: '2020-07'
+            sortDate: '2019-08'
         },
         {
             type: 'education',
