@@ -15,16 +15,41 @@ export default function Experience() {
         },
         {
             type: 'experience',
-            date: 'Oct 2022 – Jan 2023',
+            date: 'Sep 2025 – Present',
+            title: 'Syndnet',
+            subtitle: 'Lead Software Engineer',
+            bullets: [
+                'Improved backend scalability and query efficiency by designing FastAPI-PostgreSQL/PostGIS schemas and optimizing asynchronous ORM operations for property data.',
+                'Accelerated property intelligence generation by integrating ATTOM and OpenAI APIs through RAG-based retrieval, reducing manual data aggregation time.',
+                'Increased data accuracy and ranking precision by building a property scoring engine (1-100) using ATTOM and GIS overlays filtered by user buy-boxes.'
+            ],
+            sortDate: '2025-09'
+        },
+        {
+            type: 'experience',
+            date: 'Aug 2024 – Apr 2025',
+            title: 'VerosAI',
+            subtitle: 'Founding Engineer',
+            bullets: [
+                'Designed a highly scalable backend system for seamless data migration to SAP S4/HANA cloud, ensuring data integrity through enterprise-grade validation, AI-powered anomaly detection, and regulatory compliance.',
+                'Enhanced ETL workflows using multithreading and parallel processing, achieving a 35% performance gain and halving overall processing time to support real-time analytics.',
+                'Delivered secure REST APIs with AES encryption, SHA-256 hashing, and OAuth 2.0, safeguarding data confidentiality while maintaining system uptime with zero security breaches.'
+            ],
+            sortDate: '2024-08'
+        },
+        {
+            type: 'experience',
+            date: 'Oct 2022 – Jun 2023',
             title: 'Joyride Games',
             subtitle: 'Software Engineer',
             bullets: [
-                'Integrated a UPI payment system with concurrency-safe transaction flows for 500K+ users.',
-                'Built and enhanced RESTful APIs to manage 5.8M+ game session records with improved scalability.',
-                'Accelerated backend database access by over 40% via advanced indexing and SQL tuning.',
-                'Architected a session tracking mechanism for real-time gameplay event visibility and audit readiness.'
+                'Enabled 100K+ secure digital wallet transactions per day by engineering a payment gateway with high-throughput APIs and a scalable relational database backend.',
+                'Reduced payment errors and ensured transactional integrity under peak load by implementing concurrency-safe credit/debit flows with distributed locking.',
+                'Improved customer security and trust by designing a role-based access system with short-lived tokens, refresh flows, and fine-grained session controls.',
+                'Protected internal services from misuse and abuse by delivering secure APIs with rate limiting, token introspection, and controlled partner access.',
+                'Increased transparency for customers and operations teams by developing a real-time analytics dashboard to visualize wallet usage, transaction history, and balances.'
             ],
-            sortDate: '2023-01'
+            sortDate: '2023-06'
         },
         {
             type: 'experience',
@@ -32,26 +57,13 @@ export default function Experience() {
             title: 'Amazon',
             subtitle: 'Software Engineer',
             bullets: [
-                'Reduced invoice query latency by 65% across 5M+ records with optimized microservices indexing.',
-                'Improved invoice validation across 120+ endpoints using batch processing and streaming.',
-                'Achieved 5x throughput by refactoring monolith into async event-driven services.',
-                'Enabled safe daily deployments with feature flags and canary releases in CI/CD.',
-                'Standardized observability with Prometheus and Grafana for 10+ teams.'
+                'Reduced invoices search latency for real-time queries by designing and implementing optimized JDBC operations with feature toggles, improving performance and responsiveness for end users.',
+                'Streamlined monitoring and validation of large invoice batches by integrating with 120+ APIs, enabling faster error detection and resolution at scale.',
+                'Enhanced system reliability and audit accuracy by contributing additional fields to the invoice header, improving data completeness for compliance checks.',
+                'Accelerated invoice data retrieval and validation by integrating advanced search algorithms, cutting query times and boosting operational efficiency.',
+                'Modernized the TIPS UI to version 2.0 by leading multiple feature improvements, improving performance and user experience for business stakeholders.'
             ],
             sortDate: '2022-08'
-        },
-        {
-            type: 'experience',
-            date: 'Aug 2019 – Jun 2021',
-            title: 'App Integrators',
-            subtitle: 'Software Engineer',
-            bullets: [
-                'Designed and delivered application integration solutions that streamlined workflows and reduced manual effort for clients.',
-                'Built and maintained data pipelines to automate reporting and improve reliability of business processes.',
-                'Implemented secure authentication and role-based access to support enterprise-level requirements.',
-                'Collaborated with stakeholders to identify integration gaps, shipped features on tight deadlines, and improved onboarding efficiency'
-            ],
-            sortDate: '2019-08'
         },
         {
             type: 'education',
